@@ -500,7 +500,7 @@ li::marker {
     }
 
     .memes-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         gap: var(--spacing-md);
     }
 
@@ -635,6 +635,7 @@ li::marker {
     /* Memes optimizations */
     .memes-grid {
         gap: 1rem;
+        grid-template-columns: 1fr !important;
     }
 
     .meme-item img {
